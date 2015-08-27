@@ -40,6 +40,7 @@ RUN apt-get clean && \
 # Expose the Neo4j browser to the host OS on port 7474 and 1337
 EXPOSE 7474
 EXPOSE 1337
+EXPOSE 5005
 
 # Mount a volume for persistent data
 VOLUME /opt/data
